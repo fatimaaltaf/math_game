@@ -8,11 +8,11 @@ class Player
     @life = 3
   end
 
-  def life_count()
+  def lose_life_count
     self.life -= 1
   end
 
-  def score
+  def game_score
     return "#{self.life}/3"
   end
 end 
